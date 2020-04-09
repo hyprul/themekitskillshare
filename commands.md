@@ -8,3 +8,7 @@ theme get -p=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 -s=https://seans-theme-store
 
 
 theme new --password=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 --store=https://seans-theme-store.myshopify.com --name=newtheme
+
+
+
+https://github.com/christopherdodd/Skillshare
