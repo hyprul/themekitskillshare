@@ -1,0 +1,20 @@
+{% assign collection = collections['all'] %}
+{% for product in collection.products %}
+  {% include 'product-item' %}
+{% else %}
+<p>no matches</p>
+{% endfor %} 
+
+
+{% schema %} 
+    { 
+        "name": "Featured Collection", 
+        "settings": [],
+        "presets": [
+            {
+                "category": "Custom Content",
+                "name": "Featured Collection"
+            }
+        ]
+    } 
+{% endschema %}
