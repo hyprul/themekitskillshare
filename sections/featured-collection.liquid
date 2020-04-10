@@ -1,4 +1,4 @@
-{% assign collection = collections['all'] %}
+{% assign collection = collections[section.settings.collection] %}
 {% for product in collection.products %}
   {% include 'product-item' %}
 {% else %}
@@ -9,7 +9,13 @@
 {% schema %} 
     { 
         "name": "Featured Collection", 
-        "settings": [],
+        "settings": [
+          {
+            "type":      "collection",
+            "id":        "collection",
+            "label":     "Collection"
+          }
+        ],
         "presets": [
             {
                 "category": "Custom Content",
