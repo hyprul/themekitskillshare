@@ -29,6 +29,52 @@
         "settings": {
           "collection": "frontpage"
         }
+      },
+      "gallery": {
+        "type": "gallery",
+        "blocks": {
+          "1586890523457": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/mens-fashion-watch.jpg"
+            }
+          },
+          "1586890529512": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/mens-business-fashion.jpg"
+            }
+          },
+          "1586890624740": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/fashionable-man-by-textured-wall.jpg"
+            }
+          },
+          "1586891994739": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/three-piece-suit.jpg"
+            }
+          },
+          "1586892065550": {
+            "type": "video",
+            "settings": {
+              "video_url": "https:\/\/www.youtube.com\/watch?v=1nnRC6jDOCI&list=RD1nnRC6jDOCI&start_radio=1"
+            }
+          }
+        },
+        "block_order": [
+          "1586890523457",
+          "1586890529512",
+          "1586890624740",
+          "1586891994739",
+          "1586892065550"
+        ],
+        "settings": {
+          "per-row": "33%",
+          "height": "400px"
+        }
       }
     },
     "content_for_index": [
